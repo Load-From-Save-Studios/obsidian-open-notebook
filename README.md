@@ -2,7 +2,7 @@
 
 Integrate [Open Notebook](https://github.com/lfnovo/open-notebook)'s AI-powered research capabilities directly into Obsidian. Chat with your notes, generate insights, create podcasts, and transform your content with advanced AI tools.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/obsidian-open-notebook)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Load-From-Save-Studios/obsidian-open-notebook)
 [![Obsidian](https://img.shields.io/badge/obsidian-0.15.0+-purple.svg)](https://obsidian.md)
 
 ## ✨ Features
@@ -88,7 +88,7 @@ For more setup options, see the [Open Notebook documentation](https://github.com
 
 ### Manual Installation
 
-1. Download the latest release from [GitHub Releases](https://github.com/yourusername/obsidian-open-notebook/releases)
+1. Download the latest release from [GitHub Releases](https://github.com/Load-From-Save-Studios/obsidian-open-notebook/releases)
 2. Extract `main.js`, `manifest.json`, and `styles.css` to your vault's `.obsidian/plugins/obsidian-open-notebook/` directory
 3. Reload Obsidian
 4. Enable the plugin in Settings > Community Plugins
@@ -598,8 +598,8 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - [Open Notebook](https://github.com/lfnovo/open-notebook)
 - [Obsidian Plugin API](https://docs.obsidian.md/Plugins)
-- [Issue Tracker](https://github.com/yourusername/obsidian-open-notebook/issues)
-- [Discussions](https://github.com/yourusername/obsidian-open-notebook/discussions)
+- [Issue Tracker](https://github.com/Load-From-Save-Studios/obsidian-open-notebook/issues)
+- [Discussions](https://github.com/Load-From-Save-Studios/obsidian-open-notebook/discussions)
 
 ---
 

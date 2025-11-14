@@ -345,10 +345,10 @@ src/
 ---
 
 ## Links
-- [GitHub Repository](https://github.com/yourusername/obsidian-open-notebook)
+- [GitHub Repository](https://github.com/Load-From-Save-Studios/obsidian-open-notebook)
 - [Open Notebook](https://github.com/lfnovo/open-notebook)
-- [Issue Tracker](https://github.com/yourusername/obsidian-open-notebook/issues)
-- [Discussions](https://github.com/yourusername/obsidian-open-notebook/discussions)
+- [Issue Tracker](https://github.com/Load-From-Save-Studios/obsidian-open-notebook/issues)
+- [Discussions](https://github.com/Load-From-Save-Studios/obsidian-open-notebook/discussions)
 
 ---
 

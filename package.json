@@ -29,12 +29,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/obsidian-open-notebook.git"
+    "url": "https://github.com/Load-From-Save-Studios/obsidian-open-notebook.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/obsidian-open-notebook/issues"
+    "url": "https://github.com/Load-From-Save-Studios/obsidian-open-notebook/issues"
   },
-  "homepage": "https://github.com/yourusername/obsidian-open-notebook#readme",
+  "homepage": "https://github.com/Load-From-Save-Studios/obsidian-open-notebook#readme",
   "devDependencies": {
     "@types/node": "^16.11.6",
     "@typescript-eslint/eslint-plugin": "5.29.0",
