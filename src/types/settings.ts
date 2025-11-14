@@ -111,7 +111,7 @@ export interface CachedNotebook {
 }
 
 export const DEFAULT_SETTINGS: OpenNotebookSettings = {
-  apiEndpoint: 'http://localhost:8000',
+  apiEndpoint: 'http://localhost:5055',
   apiPassword: '',
   connectionStatus: 'disconnected',
 

@@ -46,9 +46,9 @@ export class OpenNotebookSettingsTab extends PluginSettingTab {
     // API Endpoint
     new Setting(containerEl)
       .setName('API Endpoint')
-      .setDesc('URL of your Open Notebook instance (e.g., http://localhost:8000)')
+      .setDesc('URL of your Open Notebook instance (e.g., http://localhost:5055)')
       .addText(text => text
-        .setPlaceholder('http://localhost:8000')
+        .setPlaceholder('http://localhost:5055')
         .setValue(this.plugin.settings.apiEndpoint)
         .onChange(async (value) => {
           this.plugin.settings.apiEndpoint = value.trim();

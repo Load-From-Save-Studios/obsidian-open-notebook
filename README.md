@@ -50,7 +50,7 @@ You need a running Open Notebook instance. The easiest way is using Docker:
 ```bash
 docker run -d \
   --name open-notebook \
-  -p 8000:8000 \
+  -p 5055:5055 \
   -e OPEN_NOTEBOOK_PASSWORD=your_password \
   -e OPENAI_API_KEY=your_openai_key \
   -v $(pwd)/data:/app/data \
@@ -65,7 +65,7 @@ services:
   open-notebook:
     image: lfnovo/open-notebook:0.2.2
     ports:
-      - "8000:8000"
+      - "5055:5055"
     environment:
       - OPEN_NOTEBOOK_PASSWORD=${OPEN_NOTEBOOK_PASSWORD}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
@@ -100,7 +100,7 @@ For more setup options, see the [Open Notebook documentation](https://github.com
 ### 1. Connect to Open Notebook
 
 1. Open **Settings > Open Notebook**
-2. Enter your **API Endpoint** (e.g., `http://localhost:8000`)
+2. Enter your **API Endpoint** (e.g., `http://localhost:5055`)
 3. Enter your **API Password**
 4. Click **Test Connection**
 5. Verify the connection succeeds and features are detected
