@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-open-notebook",
+  "name": "Open Notebook",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Integrate Open Notebook's AI-powered research capabilities into Obsidian. Chat with your notes, sync content, transform text with AI, and generate insights and podcasts.",
+  "author": "Open Notebook Contributors",
+  "authorUrl": "https://github.com/yourusername/obsidian-open-notebook",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,48 @@
+{
+  "name": "obsidian-open-notebook",
+  "version": "1.0.0",
+  "description": "Integrate Open Notebook's AI-powered research capabilities into Obsidian. Chat with your notes, sync content, transform text with AI, and generate insights and podcasts.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "plugin",
+    "ai",
+    "llm",
+    "chat",
+    "research",
+    "open-notebook",
+    "knowledge-management",
+    "note-taking",
+    "markdown",
+    "sync",
+    "transformations",
+    "insights",
+    "podcasts"
+  ],
+  "author": "Open Notebook Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/obsidian-open-notebook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/obsidian-open-notebook/issues"
+  },
+  "homepage": "https://github.com/yourusername/obsidian-open-notebook#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  }
+}
